@@ -116,6 +116,27 @@ ul li span:hover{
     color: #4b4949;
 }
 
+.site-footer {
+    text-align: center;
+    padding: 18px 0 28px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    background: #cc837a;
+}
+
+.site-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 0.95rem;
+}
+
+.site-footer a:hover {
+    color: #e6483a;
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 40px 18px;
@@ -155,6 +176,11 @@ ul li span:hover{
         font-size: 16px;
         padding-left: 46px;
     }
+
+    .site-footer {
+        padding: 16px 0 24px;
+        font-size: 0.92rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -183,5 +209,10 @@ ul li span:hover{
     ul li {
         font-size: 15px;
         padding-left: 44px;
+    }
+
+    .site-footer {
+        padding: 14px 0 20px;
+        font-size: 0.9rem;
     }
 }
