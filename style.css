@@ -115,3 +115,73 @@ ul li span:hover{
     background: #e5e1e1;
     color: #4b4949;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 18px;
+    }
+
+    .to-do-list {
+        max-width: 100%;
+        margin: 32px auto;
+        padding: 28px 20px 32px;
+    }
+
+    .to-do-list h2 {
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        padding: 16px;
+    }
+
+    input {
+        width: 100%;
+        padding: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding-left: 46px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 24px 14px;
+    }
+
+    .to-do-list {
+        margin: 24px auto;
+        padding: 22px 16px 26px;
+    }
+
+    .to-do-list h2 {
+        font-size: 1.35rem;
+    }
+
+    .to-do-list h2 img {
+        width: 24px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 15px;
+        padding-left: 44px;
+    }
+}
